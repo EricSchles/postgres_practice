@@ -25,6 +25,7 @@ CREATE TABLE dataframe
        second_val 	decimal not null
 );
 
+
 DO $$
 BEGIN
 	FOR val IN 1..1000 LOOP

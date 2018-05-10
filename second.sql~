@@ -1,0 +1,7 @@
+CREATE FUNCTION add_random(val real) RETURNS real AS $$
+BEGIN
+	RETURN val * random();
+END;
+
+x interger DEFAULT 32;
+
