@@ -1,0 +1,2 @@
+---baby's first aggregation!!
+CREATE OR REPLACE FUNCTION add_two(first real, second real) 

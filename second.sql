@@ -4,6 +4,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+--main
 DO $$
 DECLARE
 	a real := 10.5;
